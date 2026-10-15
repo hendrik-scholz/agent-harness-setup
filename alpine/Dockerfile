@@ -1,7 +1,7 @@
 FROM alpine:3.24.2
 
 RUN apk add --no-cache nodejs npm && \
-    npm install -g --ignore-scripts @earendil-works/pi-coding-agent@1.1.0 && \
+    npm install -g --ignore-scripts @earendil-works/pi-coding-agent@1.2.0 && \
     npm cache clean --force
 
 RUN adduser -h /home/pi -D pi
@@ -17,6 +17,7 @@ USER pi
 # additional tools
 # Pi packages
 RUN pi install npm:pi-today
+RUN pi install npm:pi-context-view
 RUN pi install npm:pi-llama-cpp
 
 WORKDIR /home/pi
