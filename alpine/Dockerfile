@@ -9,7 +9,7 @@ RUN addgroup pi pi
 RUN mkdir -p /home/pi/.pi/agent
 
 # additional files
-ADD mcp.json /home/pi/.pi
+ADD mcp.json /home/pi/.pi/agent
 
 RUN chown -R pi:pi /home/pi/.pi
 USER pi
