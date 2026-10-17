@@ -2,7 +2,7 @@
 
 ## Contributions
 
-This project was developed with the assistance of AI tools to enhance efficiency and accuracy. Below are key contributions:
+This project was developed with the assistance of AI tools. Below are key contributions:
 
 - **Dockerfile**: Initial draft created by Claude (Claude Code).
 - **README.md**: Initial draft and formatting by Claude (Claude Code).
