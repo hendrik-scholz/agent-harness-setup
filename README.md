@@ -1,3 +1,3 @@
 # Agent Harness Setup
 
-The folder pi contains a configuration for setting up a development environment including a Dockerfile. The file is used to create and configure a containerized environment for the Pi coding agent. Look at the README.md file in the folder for details.
+The folders claude-code and pi contain configurations for setting up development environments including a Dockerfile. The files are used to create and configure containerized environments for Claude Code and the Pi coding agent. Look at the README.md files in the folders for details.
