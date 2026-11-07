@@ -1,14 +1,6 @@
-[[providers]]
-name = "llama.cpp"
-api_base = "http://localhost:9931/v1"
-api_key_env_var = ""
+active_model = "Ministral 3 3B"
 
 [[models]]
-name = "mistralai/Ministral-3-3B-Instruct-2512-GGUF"
-provider = "llama.cpp"
-alias = "Ministral-3-3B"
-
-[[models]]
-name = "mistralai/Ministral-3-8B-Instruct-2512-GGUF"
-provider = "llama.cpp"
-alias = "Ministral-3-8B"
+name = "ministral-3b-2512"
+provider = "mistral"
+alias = "Ministral 3 3B"
