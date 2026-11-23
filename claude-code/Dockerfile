@@ -1,7 +1,7 @@
 FROM alpine:3.24.4
 
 RUN apk add --no-cache nodejs npm && \
-    npm install -g @anthropic-ai/claude-code@2.1.325 && \
+    npm install -g @anthropic-ai/claude-code@2.1.330 && \
     npm cache clean --force
 
 RUN adduser -h /home/claude -D claude
